@@ -63,10 +63,9 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hi, I&apos;m Steven.</span> I&apos;m a{" "}
-        <span className="font-bold">Computer Science and Applied Maths student.</span>{" "}
-        <span className="font-bold"></span> I enjoy
-        designing and building <span className="italic">software solutions</span>. My career interests are{" "}
-        <span className="underline">software engineering and cybersecurity</span>.
+        <span className="font-bold">Software Development Engineer Co-Op at UPS</span>{" "}
+        who enjoys designing and building <span className="italic">software solutions</span>. My interests are{" "}
+        <span className="underline">software engineering and cloud infrastructure</span>.
       </motion.h1>
 
       <motion.div
@@ -85,7 +84,8 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Contact me{" "}
+          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
@@ -101,6 +101,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://linkedin.com/in/Steven-Alvarado1"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <BsLinkedin />
         </a>
@@ -109,6 +110,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/Steven-Alvarado"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <FaGithubSquare />
         </a>

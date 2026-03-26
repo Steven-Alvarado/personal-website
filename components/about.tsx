@@ -19,25 +19,21 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I&apos;m currently a junior. {" "}
-        <span className="font-medium"></span>I have a passion
-        for software developing and cybersecurity.{" "}
-        <span className="italic">My favorite part of programming and cybersecurity</span><span className="mb-3"> is the
-        designing and problem-solving process. I have an inclination to understand systems and provide scalable solutions</span> driven by the idea of developing secure and efficient 
-        software to <span className="underline">solve real-world problems.</span>{" "}
-        <span className="font-medium">
-
-        </span> I am always looking to
-        learn new technologies. I am currently looking for an{" "}
-        <span className="font-medium">internship position</span> in the software
-        development or cybersecurity field.
+        I&apos;m a{" "}
+        <span className="font-medium">Computer Science graduate from NJIT (Dec 2025)</span>{" "}
+        with a passion for{" "}
+        <span className="font-medium">software development and cloud infrastructure</span>.{" "}
+        <span className="italic">My favorite part of programming</span> is the
+        design and problem-solving process — I enjoy understanding systems deeply and building{" "}
+        <span className="underline">scalable, efficient solutions to real-world problems</span>.{" "}
+        I&apos;m currently working as a{" "}
+        <span className="font-medium">Software Development Engineer Co-Op at UPS</span>,
+        building microservices and data pipelines on Google Cloud Platform.
       </p>
 
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy being outdoors, music, and reading. I also enjoy{" "}
-        <span className="font-medium">learning new things and am always excited to take on challenges</span>.
-        {" "}
-        <span className="font-medium"></span>
+        <span className="italic">When I&apos;m not coding</span>, I enjoy being outdoors, listening to music, and reading.
+        I love taking on new challenges and building things that matter.
       </p>
     </motion.section>
   );

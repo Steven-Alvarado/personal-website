@@ -1,7 +1,6 @@
 import React from "react";
-//import { CgWorkAlt } from "react-icons/cg";
-//import { FaReact } from "react-icons/fa";
-//import { LuGraduationCap } from "react-icons/lu";
+import { CgWorkAlt } from "react-icons/cg";
+import { LuGraduationCap } from "react-icons/lu";
 import satelliteImg from "@/public/satellite.png";
 import globaltempImg from "@/public/globaltemp.png";
 import lexicalImg from "@/public/lexical.png";
@@ -14,6 +13,10 @@ export const links = [
   {
     name: "About",
     hash: "#about",
+  },
+  {
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Projects",
@@ -29,59 +32,78 @@ export const links = [
   },
 ] as const;
 
-/* export const experiencesData = [
+export const experiencesData = [
   {
-    title: "",
-    location: "",
-    description: "",
-    icon: React.createElement(LuGraduationCap),
-    date: "",
-  },
-  {
-    title: 
-    location: 
+    title: "Software Development Engineer Co-Op",
+    location: "UPS — Hybrid",
     description:
+      "Built a .NET microservice on GCP (GKE, BigQuery, Pub/Sub) that predicts package revisit likelihood using geospatial S2 Cell IDs, enabling automated hold/redirect recommendations. Deployed with Terraform and ArgoCD in a fully containerized Git/Azure DevOps workflow.",
     icon: React.createElement(CgWorkAlt),
-    date: 
+    date: "Jun 2025 – Present",
   },
-  
+  {
+    title: "B.S. Computer Science",
+    location: "New Jersey Institute of Technology",
+    description:
+      "Graduated with a B.S. in Computer Science and a Minor in Applied Mathematics. NSF S-STEM Scholar.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Dec 2025",
+  },
+  {
+    title: "Software Developer Intern",
+    location: "Thrivio Health — Hybrid",
+    description:
+      "Designed scalable backend architecture using AWS, MongoDB, and Express.js for an AI-driven social media platform. Implemented JWT-based authentication and applied agile methodologies with daily stand-ups and sprint cycles.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jun 2024 – Aug 2024",
+  },
 ] as const;
-*/
 export const projectsData = [
   {
-    title: "Space Satellite Coordinator",
+    title: "Decision Support Systems for Real-Time Coordination",
     description:
-      "Hackathon - Girlhacks NJIT 2023 \"best use of streamlit\" winner - Streamlit web application that harnessed N2YO API to provide users with real-time data on the ten closest satellites to any location",
-    tags: ["Python", "Streamlit"],
+      "Research project at Texas A&M University-Kingsville. Built a cross-platform mobile UI with real-time geospatial visualization and incident reporting for post-disaster response, backed by a serverless AWS Lambda + MongoDB + Redis pipeline.",
+    tags: ["React Native", "Expo", "Google Maps API", "AWS Lambda", "MongoDB", "Redis"],
     imageUrl: satelliteImg,
   },
   {
-    title: "Global Temperature Analysis",
+    title: "Mental Health Web Platform",
     description:
-      "Analyzed global temperature trends from 1850 to 2015 using UC Berkeley's dataset. Trained linear and random forest regression models for complex pattern recognition.",
-    tags: [ "Python", "Machine Learning"],
+      "Led a team to design and build a full-stack mental health web app. Developed a scalable RESTful API with Express.js and PostgreSQL deployed on Railway, and a responsive frontend with React.js and TypeScript.",
+    tags: ["React.js", "TypeScript", "Vite", "Express.js", "PostgreSQL", "Railway"],
     imageUrl: globaltempImg,
   },
   {
-    title: "Lexical Analyzer, Parser, and Interpreter",
+    title: "Space Satellite Coordinator",
     description:
-      "Developed lexical analyzer in C++, implementing regular expressions and finite automata techniques to efficiently tokenize source code for a Perl-like language",
-    tags: ["C++", "Parsing", "Lexical Analyzer"],
+      "Hackathon - Girlhacks NJIT 2023 \"best use of streamlit\" award winner. Streamlit web app that used N2YO and OpenAI APIs to provide users with real-time data on the closest satellites to any location.",
+    tags: ["Python", "Streamlit", "OpenAI API"],
     imageUrl: lexicalImg,
   },
 ] as const;
 export const skillsData = [
+  "Python",
+  "Java",
   "C",
   "C++",
-  "Python",
-  "Bash",
-  "GNU/Linux",
-  "Git",
-  "SQL",	
-  "HTML",
-  "CSS",
+  "C#",
   "JavaScript",
+  "TypeScript",
+  "SQL",
+  "Bash",
+  "React",
+  ".NET",
   "Next.js",
-  "Tailwind",
+  "Express.js",
+  "Spring Boot",
+  "React Native",
+  "Linux",
+  "Git",
+  "Google Cloud Platform",
+  "AWS",
   "MongoDB",
+  "MySQL",
+  "Terraform",
+  "ArgoCD",
+  "Azure DevOps",
 ] as const;
